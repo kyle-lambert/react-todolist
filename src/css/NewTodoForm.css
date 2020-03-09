@@ -1,0 +1,35 @@
+.NewTodoForm {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.NewTodoForm-group {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.NewTodoForm-button {
+  outline: none;
+  cursor: pointer;
+  color: inherit;
+  margin-left: 5px;
+  background-color: white;
+  font-size: 14px;
+  padding: 4px 6px;
+  border: 2px solid rgb(230, 230, 230);
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+
+.NewTodoForm input {
+  flex-grow: 1;
+  font-size: inherit;
+  padding: 4px 6px;
+  color: inherit;
+  border: 2px solid rgb(230, 230, 230);
+  border-radius: 4px;
+  margin: 0 6px;
+  outline: none;
+}

@@ -1,0 +1,29 @@
+.Todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Todo p {
+  padding: 15px 0;
+  margin: 0;
+  cursor: pointer;
+  flex: 1;
+}
+
+.Todo-button {
+  outline: none;
+  cursor: pointer;
+  margin-left: 5px;
+  background-color: white;
+  font-size: 14px;
+  padding: 4px 6px;
+  border: 2px solid rgb(230, 230, 230);
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+
+.Todo-complete {
+  text-decoration: line-through;
+  opacity: 50%;
+}

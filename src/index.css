@@ -1,15 +1,16 @@
-/* *,
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500&display=swap");
+
+*,
 *::before,
 *::after {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-} */
+}
 
 body {
-  box-sizing: border-box;
   font-family: "Roboto", sans-serif;
-  color: rgb(20, 20, 20);
+  color: #555555;
   font-size: 16px;
   height: 100vh;
   display: flex;

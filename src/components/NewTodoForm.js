@@ -24,15 +24,13 @@ class NewTodoForm extends Component {
   render() {
     return (
       <form className="NewTodoForm" onSubmit={this.onSubmit}>
-        <div className="NewTodoForm-group">
-          <label htmlFor="task">Task</label>
-          <input
-            id="task"
-            name="task"
-            value={this.state.task}
-            onChange={this.onChange}></input>
-        </div>
-        <button className="NewTodoForm-button">Add Todo</button>
+        <input
+          id="task"
+          name="task"
+          placeholder="Add task"
+          value={this.state.task}
+          onChange={this.onChange}></input>
+        <button className="NewTodoForm-button">Add</button>
       </form>
     );
   }

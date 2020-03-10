@@ -12,14 +12,20 @@ class Todo extends Component {
           {task}
         </p>
         <div className="Todo-group">
-          <button className="Todo-button">Edit</button>
+          <button className="Todo-button">
+            <i class="fas fa-edit"></i>
+          </button>
           <button
             className="Todo-button"
             onClick={() => this.props.removeTodo(id)}>
-            Remove
+            <i class="fas fa-trash"></i>
           </button>
         </div>
       </div>
+      // <form className="Todo-edit">
+      //   <input></input>
+      //   <button>Save</button>
+      // </form>
     );
   }
 }
